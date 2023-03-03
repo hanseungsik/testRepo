@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        margin-left: 40px;
+        background-color:  bisque;
+        width :200px;
+        height: 200px;
+        border: 1px solid black;
+        position: relative;
+      
+    }
+    .abs{
+        margin: 40px;
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        /* top: 50px; */
+       bottom: 100px ;   /* 아래에서 위로 위치 지정  */
+        left: 50px;
+        position: absolute; /* absolute를 사용하기 위해서는 상위 포지션속성이 추가되어야 사용가능 */
+    }   
+    
+</style>
+<body>
+    <div></div>
+    <div>
+        <div class="abs"></div>
+        <p>ppppp</p>
+    </div>
+    
+
+
+
+</body>
+</html>
